@@ -21,7 +21,7 @@ How To Use
 
 Clone the repo:
 ```
-git clone https://github.com/your-username/blockchain-tutorials.git
+git clone https://github.com/Saksham-Jaiswal-2004/Ethereum-Tutorials.git
 cd blockchain-tutorials
 ```
 
