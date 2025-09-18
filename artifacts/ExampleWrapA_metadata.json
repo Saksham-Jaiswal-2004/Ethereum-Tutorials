@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleWrapAround.sol": "ExampleBoolean"
+			"contracts/ExampleWrapAround.sol": "ExampleWrapA"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/ExampleWrapAround.sol": {
-			"keccak256": "0x8ab350ddf90ba656dbf08fb41ecb0c5a68e8c74841be9b1724445ac815cc4f01",
+			"keccak256": "0x8b7c39a63cb7c257fcc07d6576dc41ef4cba777223e0cb5d80761dc57c27b23a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0afcdc058792e9353c8eebd4236f3cafe967337860fb6c6a58210adcb51ec127",
-				"dweb:/ipfs/QmcmiKuaKQSsBBcsD5jPG3GwbtFPTYzXkJbU6efYn1pt1w"
+				"bzz-raw://8ab78ed0e609f75307d072922cbfed1d05900cb311f00dcc2c6fd3b4ed424b32",
+				"dweb:/ipfs/QmSXKmAuT7Avdw2YqKuooH1RkF3RgieSVc8nthYjhtSEsQ"
 			]
 		}
 	},
