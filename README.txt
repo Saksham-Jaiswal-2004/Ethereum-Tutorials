@@ -1,28 +1,40 @@
-REMIX DEFAULT WORKSPACE
+Blockchain Tutorials Repository
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+This repository contains my notes, code snippets, and practice files from a comprehensive Ethereum & Blockchain Development course (25+ hours, 19 sections, 298 lectures).
+It covers everything from Blockchain basics and Solidity to ERC20, ERC721, Truffle, HardHat, Foundry, Web3.js, NFTs, and ERC4337 Smart Wallets.
 
-This workspace contains 3 directories:
+Topics Covered
+• Blockchain & Smart Contract Basics
+• Remix IDE setup & Solidity fundamentals
+• MetaMask, Ethereum transactions, and Gas
+• Payable, fallback, and receive functions
+• Structs, Mappings, Exceptions, and Low-Level Calls
+• Web3.js, Events, and Listeners
+• ERC20 Token Standard & Token Sale Implementation
+• ERC721 NFT deployment & OpenSea integration
+• Truffle framework & Ganache
+• HardHat development & testing
+• Foundry (Forge) unit testing & deployment
+• ERC4337 Smart Accounts (Account Abstraction)
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+How To Use
 
-SCRIPTS
+Clone the repo:
+```
+git clone https://github.com/your-username/blockchain-tutorials.git
+cd blockchain-tutorials
+```
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+Open any section folder and review the .sol contracts and notes.md.
+For Truffle/HardHat/Foundry projects, navigate to the project folder and install dependencies:
+```
+npm install
+# or for Foundry
+forge install
+```
 
-For the deployment of any other contract, just update the contract name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
+Run tests or scripts depending on the framework used.
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+Purpose
+This repository is for learning, experimenting, and building a strong foundation in blockchain development.
+It will grow over time as I move through the course and expand with personal improvements and projects.
