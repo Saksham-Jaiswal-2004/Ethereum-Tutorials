@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleViewPureFunctions.sol": "ExampleMsgSender"
+			"contracts/ExampleConstructor.sol": "ExampleMsgSender"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleViewPureFunctions.sol": {
+		"contracts/ExampleConstructor.sol": {
 			"keccak256": "0xf0d540d029ed849aae8b81f9e3b0c18eed360777376f9ed64659b52203e30963",
 			"license": "MIT",
 			"urls": [
