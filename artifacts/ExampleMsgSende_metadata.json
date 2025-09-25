@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleMsgSender.sol": "ExampleBoolean"
+			"contracts/ExampleMsgSender.sol": "ExampleMsgSende"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/ExampleMsgSender.sol": {
-			"keccak256": "0xf2155baf56c4d4b89056f872c0eb716a0fcb5c34fe24eb953922ce28e10b6131",
+			"keccak256": "0x53b2c0e4015dcc8efca1785c87c2a417154245d496eb1bc8908dd5be6797b3c9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a65d62f5fcb21962ce768e8f2f00531923d35548944306410ded812f21b21bd0",
-				"dweb:/ipfs/QmZDvtrHryTtnEE49Ldxjo9Dv6NiURmqC1khbCvw2mh7jZ"
+				"bzz-raw://f018dc351057435725b02e6a49d394cbfc8ef1bc0df76f6c36d2eca593cf35aa",
+				"dweb:/ipfs/QmRMXSHtRr1fRPFXgfom19kxSuGshaMu1z9DZTfCSQo4eM"
 			]
 		}
 	},
