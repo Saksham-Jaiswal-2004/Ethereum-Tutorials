@@ -6,19 +6,26 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_someAddress",
-						"type": "address"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "myAddress",
+				"name": "changeCounter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -30,21 +37,27 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "theMessage",
+				"outputs": [
 					{
-						"internalType": "address",
-						"name": "_myAddress",
-						"type": "address"
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
-				"name": "setMyAddress",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "setMyAddressToMsgSender",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newMessage",
+						"type": "string"
+					}
+				],
+				"name": "updateMessage",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -63,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/TheBlockchainMessenger.sol": "ExampleConstructor"
+			"contracts/TheBlockchainMessenger.sol": "TheBlockChainMessenger"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -78,11 +91,11 @@
 	},
 	"sources": {
 		"contracts/TheBlockchainMessenger.sol": {
-			"keccak256": "0xe9a932d89359bae86c95d945188fd0e6ef6bb64043732525a0bbf25cf1306c88",
+			"keccak256": "0x7fd8c36538aa246d5242d0021252427956dbe2f0d6821b09fb3320f1dc70fce4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://defbf068f4428f6097059897c3a1ed3c15e89dae8abab451278f3a2687a751fd",
-				"dweb:/ipfs/QmUr2nNjoUSj25AWGiLdMJemZB1nZHCuWzjmLkFGBiM2is"
+				"bzz-raw://0446d3db7ae63bc2ba10c6421a49a8e9a6e5aaf65a05a37f52f4e5784c9de4fb",
+				"dweb:/ipfs/Qmaiq7rFGQEfYXxaTYVcjLJgSiucHyTdmF4FVLKMg3fNVm"
 			]
 		}
 	},
