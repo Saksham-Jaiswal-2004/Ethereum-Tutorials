@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleViewPureFunctions.sol": "ExampleMsgSender"
+			"contracts/ExampleViewPureFunctions.sol": "ExampleViewPureFunctio"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/ExampleViewPureFunctions.sol": {
-			"keccak256": "0xf0d540d029ed849aae8b81f9e3b0c18eed360777376f9ed64659b52203e30963",
+			"keccak256": "0x6400c2a971f44a686aa953ecca2021b0035c43dbd82043eba6ef4b6dfad140f3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4b9f55c6edcae15f49dd7ca9954cec4669f8c22fd295557f0c4b523b653714e3",
-				"dweb:/ipfs/Qma3biEzDZJKo6YhYLGjCVFYGgkKBLBib3yGAqtBoc95y3"
+				"bzz-raw://8a275453934555473dc7fcdfa604348fbe43c7b07b3cb8775eb53a97a7e8ec49",
+				"dweb:/ipfs/QmVXi7SN5UgaPxNgbT2YpmzxjKD3ZApm3WmnthAC1ExEDr"
 			]
 		}
 	},
