@@ -4,7 +4,28 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "someAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "updateSomeAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleConstructor.sol": "ExampleMsgSender"
+			"contracts/ExampleMsgSender.sol": "ExampleMsgSender"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -32,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleConstructor.sol": {
-			"keccak256": "0xf0d540d029ed849aae8b81f9e3b0c18eed360777376f9ed64659b52203e30963",
+		"contracts/ExampleMsgSender.sol": {
+			"keccak256": "0xf3364d4cef2523467a9f6d9f6bf6e77c6d0628f1590b85466d7a122670ab5c20",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4b9f55c6edcae15f49dd7ca9954cec4669f8c22fd295557f0c4b523b653714e3",
-				"dweb:/ipfs/Qma3biEzDZJKo6YhYLGjCVFYGgkKBLBib3yGAqtBoc95y3"
+				"bzz-raw://5d4b7f7cad6423db4c0c35ed92723b433e871bc6f188f523d0759a480a2d5f43",
+				"dweb:/ipfs/QmSEXGgPGF39QrzZDUWZBHTom9RY4GjxN7TtDiTLNBU8Q1"
 			]
 		}
 	},

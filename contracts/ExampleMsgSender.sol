@@ -6,6 +6,6 @@ contract ExampleMsgSender {
     address public someAddress;
 
     function updateSomeAddress() public {
-        someAddress = msg.sender;
+        someAddress = msg.sender; // Gives address of the one interacting with the contract
     }
 }
