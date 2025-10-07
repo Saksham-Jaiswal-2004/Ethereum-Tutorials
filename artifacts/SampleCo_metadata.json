@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SampleContract.sol": "MyContract"
+			"contracts/SampleContract.sol": "SampleCo"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/SampleContract.sol": {
-			"keccak256": "0x1c06e9b91579a6aa300a29992c7653126ae3dbd94a9c444618c5bf60f83b5412",
+			"keccak256": "0x42c678e2c1ac9fbb78dac5f804623eb62578c1da0757043da76c03b710582f69",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://76f7aaf1f28a65505d16cef7d1c185de5b1df4704a65894686dd6b123bc447aa",
-				"dweb:/ipfs/QmNzNZg9z1wREk2dTXN1guyq6C7zhzT8cKZ6Rpc1bcxKWU"
+				"bzz-raw://797bed31667f39a77b9e1285bc859d22e725bc6f1c1fb9675b91cbe427f3fb29",
+				"dweb:/ipfs/QmfBuusM4XaStMyF6wTM98PJazsYe8JrpiWH2s3Keg5otx"
 			]
 		}
 	},

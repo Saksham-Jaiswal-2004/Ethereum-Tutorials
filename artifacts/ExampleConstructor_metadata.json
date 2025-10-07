@@ -63,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/TheBlockchainMessenger.sol": "ExampleConstructor"
+			"contracts/ExampleConstructor.sol": "ExampleConstructor"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -77,7 +77,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/TheBlockchainMessenger.sol": {
+		"contracts/ExampleConstructor.sol": {
 			"keccak256": "0xe9a932d89359bae86c95d945188fd0e6ef6bb64043732525a0bbf25cf1306c88",
 			"license": "MIT",
 			"urls": [
